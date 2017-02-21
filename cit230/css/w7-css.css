@@ -1,0 +1,35 @@
+ body{color: red; font-family:arial, helvetica;}
+            header{border:solid; width: 50%}
+            nav{color: #00FF00; background-color: rgb(247, 209, 210);}
+            
+            nav ol{background-color:fuchsia;}
+           	nav ol li{background-color:purple; float: left; padding-right: 1.5em}
+            nav ul li{color: red;}
+            div#left-col{border: solid; width:150px;}
+           main strong{color:yellow; font-size: 36px; margin-left: 50px; }
+            {}
+            main img {}
+            aside#introduction{font-size:8px;margin:24px; color:#00FF00;} /*green*/
+            aside#introduction{font-size:8px;margin:24px; color:#00FF00;} /*green*/
+            {;} /*black*/
+            footer ul{text-shadow:3px 3px 1px #777777;}
+            footer ul li{float: left; padding-right: 1.5em;}
+            footer#pg2 ul li{color: pink; padding-left: 1.5em;}
+           h1.dropcap::first-letter{font-weight: bold; font-size: 3em; color: yellow; }
+            {color:green;font-family:sans-serif;font-size:10px;text-align:center;}
+            {color: green;}
+            th{letter-spacing: -.25em;}
+            td{text-decoration: line-through;}
+            dd{word-spacing: 1.5em;}
+           nav a:hover{font-weight:bold; color:green;}
+
+            span.docintro{color:rgb(0,0,255); font-size: .5em;} /*blue*/           
+            .dropcap::first-letter{color:purple;font-size:600%;}   
+            .sitebranding{font-size:6px; background-color:aqua}               
+            {font-weight:bold;}
+            .fs2em {font-size:2em;}
+            .fs2ex {font-size:2ex;}
+            .fs24px {font-size:24px;}
+            .fs120prcnt {font-size:120%;}
+            .fs24pt {font-size:24pt;}
+            .fsin {font-size:.5in;}	

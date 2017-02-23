@@ -17,3 +17,10 @@ body {
 }
 
 nav ol li{float: left; margin-right: 20px; margin-bottom: 20px}
+
+#venue-pic-1{float: left;}
+#venue-pic-2{float: right; margin-left: 10px; }
+#venue-pic-3{float: left;}
+#venue-pic-4{float: right;}
+#venue-pic-5{float: left;}
+#venue-pic-6{float: right;}

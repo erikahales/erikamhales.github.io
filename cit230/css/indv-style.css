@@ -1,0 +1,24 @@
+wholepage {
+    width:85%
+    max-width:960px;
+     
+}
+a:hover{
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    color: #363636;
+}
+
+body {
+    background-color:#fff6f0;
+}
+
+nav ul li{float: left; margin-right: 20px; margin-bottom: 20px}
+
+
+#index-banner-img { margin-bottom: 50px;}
+
+font-family: 'Dancing Script', cursive;

@@ -1,0 +1,22 @@
+nav ul li {display: inline-block; margin-left: 20px; padding: 20px;}
+
+body {background-image: url(../../indv-website/background-img.jpg); background-attachment: fixed;}
+
+header {border: solid silver;}
+
+body {border: dashed pink;}
+
+footer {border: thin blue;}
+
+h1 {text-align: center; letter-spacing: 1.5em;}
+
+h2 {text-align: center;}
+ 
+h3 {text-align:center;}
+
+img{margin-left: 27%}
+
+table{border: so;d silver; width: 50%; margin-left: auto; margin-right: auto; transition-property: width; transition-duration: 2s;}
+table:hover {width:75%;}
+
+    nav ol li:hover{color: silver; width: 20px; height: 20px;}

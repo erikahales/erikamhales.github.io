@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 wholepage {
     width:85%
     max-width:960px;
@@ -9,18 +13,20 @@ a:hover{
 }
 
 h2{
-    margin-left:auto;    
+    margin-left: 35%;    
 }
 h1, h2, h3 {
+    font-family: 'Dancing Script';
     color: #363636;
 }
 h1{
      font-size: 50px;
-    margin-left: 40%;
+    margin-left: 45%;
 }
 
 nav ul li{
-    z-index: left;display: block; margin-bottom: 20px; font-size: 20px; display: flex; flex-wrap: wrap;margin-left: 20px; text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: left;display: block; margin-bottom: 20px; font-size: 20px; display: flex; flex-wrap: wrap;margin-left: 20px; text-decoration: none; 
     
 }
 
@@ -77,12 +83,6 @@ body {
     width: 35%;
 }
 
-#dresses-banner-img{
-    margin-bottom: 50px;
-    margin-top: -400px;
-    margin-left:35%;
-    width: 35%;
-}
 
 #social-media-banner-img{
     margin-bottom: 50px;
@@ -143,11 +143,56 @@ margin-left: 40px;
     margin-top: -20px;
     font-size: 20px;
 }
+
+#dresses-banner-img{
+    margin-bottom: 50px;
+    margin-top: -400px;
+    margin-left:35%;
+    width: 35%;
+}
+
+#dress-img-one{
+    max-width: 600px;
+    max-height: 600px;
+    margin-left:30%;
+}
+
+#dress-img-two{
+    max-width: 600px;
+    max-height:600px;
+    margin-left: 35%;
+}
+
+#dress-img-three{
+    max-width: 600px;
+    max-height: 600px;
+    margin-left:30%;
+}
+
+#dress-img-four{
+    width: 400px;
+    height: 600px;
+    margin-left: 35%;
+}
+
+#dress-img-five{
+    width: 400px;
+    height: 600px;
+    margin-left: 35%;
+}
+
+#dress-img-six{
+    width:400px;
+    height: 600px;
+    margin-left: 35%;
+    
+    h2{
+        
+    }
+}
 footer{
     margin-left: 400px;
 }
-
-font-family: 'Dancing Script', cursive;
 
 
 

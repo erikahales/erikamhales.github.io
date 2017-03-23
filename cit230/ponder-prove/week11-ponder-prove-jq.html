@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML> 
 <html>
     <head>
@@ -9,21 +10,46 @@
 
 <script>
 $(document).ready(function(){
+$("#p").click(function(){
+    alert("hello, this is a paragraph")
+})  
   
-  
-	
+$("#p1").mousedown(function(){
+    alert("hello, this is a paragraph2")
+})  	
 
-  
+$("#p2").click(function(){
+    alert("hello " + document.alertform.yourname.value+ "  this is id p2")
+})  
  
-	
+$("#p3").mouseenter(function(){
+    alert("hello " + document.alertform.yourname.value+ "  this is id p3")
+})	
 
-  
+ $("#p10").hover(function(){
+     $(this).css("background-color", "blue");
+ },
+function(){
+     $(this).css("background-color", "red"); 
+ });
  
-	
+ $("#div11").hover(function(){
+     $(this).append(" I like you!!!");
+ },
+function(){
+     $(this).append(" NOT!!!"); 
+ });
 
+  $("#div12").mouseleave(function(){
+     $(this).css("background-color", "green");
+ });
+ $("#div12").dblclick(function(){
+     $(this).hide("slow"); 
+ });
  
- 
-	
+$("button").click(function(){
+     $("#p30").css("background-color", "yellow");
+ });
 
  
  
